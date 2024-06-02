@@ -1,0 +1,67 @@
+
+
+/* Style for buttons */
+.menu {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  .menu a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+  }
+  
+  .menu a:hover {
+    background-color: #555;
+  }
+  
+  .menu a.active {
+    background-color: #555;
+ 
+  
+  }
+
+
+
+button {
+    border: none; /* Remove button border */
+    padding: 15px 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect for buttons */
+button:hover {
+    transform: scale(1.05);
+}
+
+/* Click effect for buttons */
+button:active {
+    transform: scale(0.95);
+}
+
+/* Style for button images */
+button img {
+    width: 550px; /* Adjust the size as needed */
+    height: 300px; /* Adjust the size as needed */
+    display: block;
+    margin: 0 auto 10px;
+    border-radius: 25px;
+}
+
+/* Style for button spans */
+button span {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
